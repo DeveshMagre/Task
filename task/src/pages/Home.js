@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import MealFinder from '../components/MealFinder'
 import SearchBar from '../components/SearchBar'
 import FeatureCards from '../components/FeatureCards'
-import CookingBanner from '../components/Cookingbanner'
+import CookingBanner from '../components/Cookingbanner';
 import CookingProfile from '../components/CookingProfile'
 import Community from '../components/Community'
 import FAQSection from '../components/FAQSection'
