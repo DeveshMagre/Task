@@ -4,7 +4,6 @@ function CookingBanner() {
     return (
       <div className="bg-[#001414] w-full py-12 px-32">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
-          {/* Illustration */}
           <div className="w-48 md:w-64">
             <img
               src={Cooking}
@@ -12,8 +11,6 @@ function CookingBanner() {
               className="w-full h-auto"
             />
           </div>
-  
-          {/* Content */}
           <div className="flex-1 text-center md:text-left max-w-xl">
             <h1 className="text-white text-4xl md:text-5xl font-bold mb-4">
               Cooking Special Today!

@@ -30,17 +30,13 @@ function Footer() {
           ))}
         </div>
 
-        {/* Footer Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-gray-800">
-          {/* Language Selector */}
           <div className="mb-4 md:mb-0">
             <button className="flex items-center space-x-2 bg-transparent border border-[#98ff82] rounded px-3 py-1.5 text-sm">
               <span>English</span>
               <ChevronDown className="w-4 h-4" />
             </button>
           </div>
-
-          {/* Copyright and Links */}
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 text-sm text-gray-400">
             <span>© 2022 MealAround, inc.</span>
             <div className="flex items-center space-x-4">
@@ -57,8 +53,6 @@ function Footer() {
               </Link>
             </div>
           </div>
-
-          {/* Social Media Icons */}
           <div className="flex space-x-4 mt-4  md:mt-0">
             {socialIcons.map(({ component: Icon, label, colorClass }) => (
               <Link
